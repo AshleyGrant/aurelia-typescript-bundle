@@ -1,0 +1,58 @@
+{
+  "name": "aurelia-typescript-bundle",
+  "version": "1.0.0",
+  "description": "A bundle for using Typescript with http://gist.run.",
+  "keywords": [
+    "aurelia",
+    "typescript",
+    "skeleton"
+  ],
+  "homepage": "https://github.com/ashleygrant/aurelia-typescript-bundle",
+  "bugs": {
+    "url": "https://github.com/ashleygrant/aurelia-typescript-bundle/issues"
+  },
+  "license": "CC0-1.0",
+  "author": "Ashley Grant <ashley@ashleygrant.com> (http://blog.ashleygrant.com/)",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ashleygrant/aurelia-typescript-bundle"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "e2e": "gulp serve webdriver-standalone e2e"
+  },
+  "devDependencies": {
+    "aurelia-bundler": "^0.3.0",
+    "aurelia-tools": "^0.1.18",
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.3",
+    "browser-sync": "^2.10.0",
+    "conventional-changelog": "0.0.11",
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.1.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-changed": "^1.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-protractor": "1.0.0",
+    "gulp-sourcemaps": "^1.3.0",
+    "isparta": "^3.1.0",
+    "istanbul": "^0.3.13",
+    "jasmine-core": "^2.1.3",
+    "jspm": "0.16.15",
+    "karma": "^0.13.15",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.5",
+    "karma-jspm": "2.0.1-beta.2",
+    "object.assign": "^1.0.3",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-paths": "^1.0.0",
+    "yargs": "^2.1.1"
+  }
+}
