@@ -3,12 +3,12 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "typescript",
   paths: {
-    "github:*": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.3/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.3/jspm_packages/npm/*",
-    "aurelia-bundle": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.3/dist/aurelia-bundle"
+    "github:*": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.4/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.4/jspm_packages/npm/*",
+    "aurelia-bundle": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.4/dist/aurelia-bundle"
   },
   bundles: {
-    "aurelia-bundle.js": [
+    "aurelia-bundle": [
       "src/zzzz.js",
       "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0",
       "npm:aurelia-framework@1.0.0-beta.1.2.0",
