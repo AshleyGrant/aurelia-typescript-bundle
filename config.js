@@ -3,8 +3,9 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "typescript",
   paths: {
-    "npm:*": "jspm_packages/npm/*",
-    "github:*": "jspm_packages/github/*"
+    "github:*": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.2/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.2/jspm_packages/npm/*",
+    "aurelia-bundle": "https://cdn.rawgit.com/AshleyGrant/aurelia-typescript-bundle/v1.0.2/dist/aurelia-bundle"
   },
   bundles: {
     "dist/aurelia-bundle.js": [
